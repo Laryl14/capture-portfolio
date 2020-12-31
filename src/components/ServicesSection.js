@@ -7,7 +7,7 @@ import teamwork from "../img/teamwork.svg";
 import home2 from "../img/home2.png";
 //import Styles
 import styled from "styled-components";
-import { StyledDescription, StyledImage, StyledHide, About } from "../styles";
+import { StyledDescription, StyledImage, About } from "../styles";
 
 const ServicesSection = () => {
   return (
