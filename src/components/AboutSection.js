@@ -2,6 +2,7 @@ import React from "react";
 import home1 from "../img/home1.png";
 //styled
 import styled from "styled-components";
+import { About, StyledHide, StyledDescription, StyledImage } from "../styles";
 
 const AboutSection = () => {
   return (
@@ -34,35 +35,5 @@ const AboutSection = () => {
 };
 
 //Styled Components - backticks / styled components look like components
-const About = styled.div`
-  min-height: 90vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  padding: 5rem 10rem;
-  color: white;
-`;
-
-const StyledDescription = styled.div`
-  flex: 1;
-  padding-right: 5rem;
-  h2 {
-    font-weight: lighter;
-  }
-`;
-
-const StyledImage = styled.div`
-  flex: 1;
-  overflow: hidden;
-  img {
-    width: 100%;
-    height: 80vh;
-    object-fit: cover; //stretches back out and keeps aspect ratio
-  }
-`;
-
-const StyledHide = styled.div`
-  overflow: hidden;
-`;
 
 export default AboutSection;
